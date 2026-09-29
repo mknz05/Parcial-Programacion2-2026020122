@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        EstrategiaComision comision = new ComisionEstandar(); //Comentario x
+        EstrategiaComision comision = new ComisionPersonalizada("Daniel");
         Vendedor empleado = new Vendedor("Pepito", 1000.0, comision);
         empleado.mostrarDetalle();
     }
